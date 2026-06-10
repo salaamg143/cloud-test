@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core Colors -->
+    <color name="primary_dark_bg">#0A0A0A</color>
+    <color name="primary_green">#00FF41</color>
+    <color name="primary_green_dark">#00CC33</color>
+    <color name="primary_green_light">#33FF66</color>
+    <color name="primary_green_transparent">#4C00FF41</color>
+    
+    <!-- Status Colors -->
+    <color name="recording_red">#FF2D2D</color>
+    <color name="recording_red_dark">#CC2222</color>
+    <color name="idle_green">#00FF41</color>
+    <color name="error_red">#FF1744</color>
+    <color name="warning_orange">#FFA500</color>
+    
+    <!-- UI Colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#888888</color>
+    <color name="border_gray">#1A1A1A</color>
+    <color name="card_bg">#111111</color>
+    <color name="chip_bg_inactive">#0F0F0F</color>
+    <color name="chip_bg_active">#001A0C</color>
+    <color name="waveform_primary">#00FF41</color>
+    <color name="waveform_secondary">#00CC33</color>
+    <color name="divider">#222222</color>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.SilliRec" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorPrimaryVariant">@color/primary_green_dark</item>
+        <item name="colorSecondary">@color/primary_green</item>
+        <item name="colorSecondaryVariant">@color/primary_green_dark</item>
+        <item name="colorError">@color/error_red</item>
+        <item name="android:colorBackground">@color/primary_dark_bg</item>
+        <item name="android:colorForeground">@color/text_primary</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:windowBackground">@color/primary_dark_bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.SilliRec" parent="Base.Theme.SilliRec" />
+
+    <!-- Hacker Terminal Typography -->
+    <style name="Typography.Mono.Title" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:fontFamily">@font/jetbrains_mono_bold</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/primary_green</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <style name="Typography.Mono.Headline" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="android:fontFamily">@font/jetbrains_mono_bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="Typography.Mono.Body" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:fontFamily">@font/jetbrains_mono</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="Typography.Mono.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:fontFamily">@font/jetbrains_mono</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="Typography.Mono.Timer">
+        <item name="android:fontFamily">@font/jetbrains_mono_bold</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">@color/primary_green</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+
+    <!-- Button Styles -->
+    <style name="Widget.SilliRec.Button.Record" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/primary_dark_bg</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/jetbrains_mono_bold</item>
+        <item name="cornerRadius">0dp</item>
+        <item name="elevation">0dp</item>
+        <item name="materialThemeOverlay">@style/ThemeOverlay.SilliRec.Button.Record</item>
+    </style>
+
+    <style name="ThemeOverlay.SilliRec.Button.Record" parent="">
+        <item name="colorPrimary">@color/primary_green</item>
+    </style>
+
+    <!-- Chip Styles -->
+    <style name="Widget.SilliRec.Chip" parent="Widget.MaterialComponents.Chip.Filter">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">@font/jetbrains_mono</item>
+        <item name="chipBackgroundColor">@drawable/chip_background</item>
+        <item name="chipStrokeColor">@drawable/chip_stroke</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="cornerRadius">0dp</item>
+    </style>
+
+    <!-- Card Styles -->
+    <style name="Widget.SilliRec.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/card_bg</item>
+        <item name="cardElevation">0dp</item>
+        <item name="cardCornerRadius">0dp</item>
+        <item name="strokeColor">@color/border_gray</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+</resources>
